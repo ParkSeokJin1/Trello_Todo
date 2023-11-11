@@ -10,7 +10,7 @@
 
 <br>
 
-## Point 🛠
+## Point📌
 
 ✔ Form Validation
 
@@ -21,7 +21,7 @@
 
 <br>
 
-## Skills & tools 📌
+## Skills & tools 🛠
 
 ✔ typescript
 
