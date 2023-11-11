@@ -1,45 +1,44 @@
-# Getting Started with Create React App
+## Introduction 💡
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+간단하게 메모를 입력할 수 있는 todo list 스타일의 웹앱입니다
 
-## Available Scripts
+기본적으로는 to do, doing, done을 제공하며,
 
-In the project directory, you can run:
+localStorage에 저장된 데이터가 있을 때에는 그에 맞는 form을 제공합니다
 
-### `npm start`
+<br 
+  📌 Point
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* reate-hook-form 사용한 이유
+실제 앱을 빌드 한다고 가정했을 때 form은 단 하나의 input만 필요하지는 않다.
+그렇다면 form에 많은 state들을 등록하게 되고 큰 규모의 앱을 만든다면 form validation이 필요하다.
+일반적으로 또 다른 input이 있다면 또 다른 onChange를 만들어야 한다
+ex) 회원가입을 위한 form이 있다고 생각했을 때 이름, 성, 아이디, 이메일, 전화번호, 비밀번호, 비밀번호 확인
+... 아이디와 아이디 에러, 이메일과 이메일 에러... 모두 state로 가져야 한다.
+  이걸 더 나아지게 할 수 있는 라이브러리
+* recoil selector를 이용하면
+  어떤 state를 가져다가 다른 state를 만들 수 있다.
+  state를 원하는 대로 변형 가능
+  selector는 atom의 output을 변형시키는 도구
+* https://blog.naver.com/skatksdml1/223242059648
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Skills & tools 🛠
 
-### `npm test`
+✔ typescript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔ React.js v17
 
-### `npm run build`
+✔ recoil
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔ styled-components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✔ react-beautiful-dnd
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✔ react-icons
 
-### `npm run eject`
+✔ react-hook-form
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+✔ localStorage
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
