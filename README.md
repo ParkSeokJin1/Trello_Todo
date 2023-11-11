@@ -43,6 +43,5 @@ ex) 회원가입을 위한 form이 있다고 생각했을 때 이름, 성, 아�
 
 ✔ localStorage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+<br>
