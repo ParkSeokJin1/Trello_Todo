@@ -6,7 +6,8 @@
 
 localStorage에 저장된 데이터가 있을 때에는 그에 맞는 form을 제공합니다
 
-<br 
+<br>
+
   📌 Point
 
 * reate-hook-form 사용한 이유
@@ -21,6 +22,8 @@ ex) 회원가입을 위한 form이 있다고 생각했을 때 이름, 성, 아�
   state를 원하는 대로 변형 가능
   selector는 atom의 output을 변형시키는 도구
 * https://blog.naver.com/skatksdml1/223242059648
+
+<br>
 
 ## Skills & tools 🛠
 
