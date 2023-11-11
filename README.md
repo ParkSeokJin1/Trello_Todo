@@ -1,10 +1,12 @@
-## Introduction 💡
+## 트렐로 클론 💡
 
-간단하게 메모를 입력할 수 있는 todo list 스타일의 웹앱입니다
+이 프로젝트에서는 React Hook Form 을 이용하여 입력폼을 빌드하고 검증하는 것을 구현하면서 배웠습니다.  Recoil 의 atoms 와 selectors를 이용해 어플리케이션의 상태를 관리하는 법을 구현,마지막으로 Beautiful DnD를 활용하여 드래그-앤-드랍을 구현했습니다.
 
-기본적으로는 to do, doing, done을 제공하며,
+간단하게 메모를 입력할 수 있는 todo list 스타일의 웹앱입니다.
 
-localStorage에 저장된 데이터가 있을 때에는 그에 맞는 form을 제공합니다
+기본적으로는 to do, doing, done을 제공합니다.
+
+
 
 <br>
 
